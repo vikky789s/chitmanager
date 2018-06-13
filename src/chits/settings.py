@@ -57,7 +57,7 @@ TEMPLATES = [
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -75,7 +75,7 @@ DATABASES = {
         'NAME':'chitmanager',
         #'NAME': 'heroku_e18935074c20bff',
         'USER': 'root',
-        'PASSWORD':'vikky',
+        'PASSWORD':"karthik",
         'HOST': '',
         'PORT': '',
     }
